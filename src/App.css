@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+div{
+  background-color: #87d83b;
+}
+
+
+
+
+/* logo */
+img{
+  display: block;
+  margin: auto;
+
+}
+/* headings */
+h1{
+  font-family: cursive;
+  font-size: 44px;
+  border:solid gold;
+  border-style: inset;
+  border-width: 5px;
+  text-align: center;
+  background-color: white;
+
+}
+
+/* recipe details */
+p{
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* border:solid gold;
+  border-style: inset;
+  border-width: 5px; */
+  text-align: center;
+  background-color:white;
+  
+}
+
+
+/* Recipe details Button link style */
+.button-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+  background-color:rgb(0, 64, 255);
+  color: #000001;
+}
+
+
+
+/* app.css */
+
+/* Style for images */
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* recipe */
+h2{
+  font-size: 27px;
+  text-align: center;
+  font-family:cursive;
+  text-decoration: dotted;
+  
+  border: solid gold;
+  border-radius: 6px;
+  background-color: white;
+  
+
+}
+
+ol{
+  border: solid gold;
+  border-width: 5px;
+ font-size: 23px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+}
+ul{
+  border-width: 5px;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  border: solid gold;
+}
+
+
+
+/* app.css */
+
+/* Style for centered button */
+
+/* app.css */
+
+/* Style for centered button */
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.centered-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.centered-button:hover {
+  background-color: #0056b3;
+}
+
+
+.centered-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.centered-button:hover {
+  background-color: #0056b3;
+}
+
