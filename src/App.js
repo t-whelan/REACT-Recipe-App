@@ -323,6 +323,92 @@ const App = () => {
       ],
       pictureUrl: "https://www.foodleclub.com/wp-content/uploads/2021/08/peppermint-crisp-fridge-tart_4.jpg", //  a URL to an image of the dish
     },
+    {
+      id: uuidv4(),
+      title: 'Basic Homemade Bread',
+      shortDescription: "If you'd like to learn how to bake bread, here's a wonderful place to start. This easy white bread bakes up deliciously golden brown.",
+      ingredients: [
+        '1 package (1/4 ounce) active dry yeast', 
+        '3 tablespoons plus 1/2 teaspoon sugar', 
+        '1 tablespoon salt', 
+        '6-1/4 to 6-3/4 cups bread flour',
+        '2-1/4 cups warm water (110° to 115°)', 
+        '2 tablespoons canola oil'
+      ],
+      preparationSteps: [
+        'In a large bowl, dissolve yeast and 1/2 teaspoon sugar in warm water; let stand until bubbles form on surface.', 
+        'Whisk together remaining 3 tablespoons sugar, salt and 3 cups flour.', 
+        'Stir oil into yeast mixture; pour into flour mixture and beat until smooth.', 
+        'Stir in enough remaining flour, 1/2 cup at a time, to form a soft dough.',
+        'Turn onto a floured surface; knead until smooth and elastic, 8-10 minutes.', 
+        'Place in a greased bowl, turning once to grease the top.',
+        'Cover and let rise in a warm place until doubled, 1-1/2 to 2 hours.',
+        'Punch dough down. Turn onto a lightly floured surface; divide dough in half.', 
+        'Shape each into a loaf. Place in 2 greased 9x5-in. loaf pans. Cover and let rise until doubled, 1 to 1-1/2 hours.',
+        'Bake at 375° until loaf is golden brown and sounds hollow when tapped or has reached an internal temperature of 200°, 30-35 minutes.', 
+        'Remove from pans to wire racks to cool.'
+      ],
+      pictureUrl: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Basic-Homemade-Bread_EXPS_TOHcom20_32480_C01_26_2b.jpg?fit=700,700" //  a URL to an image of the dish
+    },
+    {
+      id: uuidv4(),
+      title: "Li'l Cheddar Meat Loaves",
+      shortDescription: 'A beloved dish featuring cheddar cheese, oats, ketchup, and mustard',
+      ingredients: [
+        '1 large egg', 
+        '3/4 cup whole milk', 
+        '1 cup shredded cheddar cheese', 
+        '1/2 cup quick-cooking oats', 
+        '1/2 cup chopped onion', 
+        '1/2 teaspoon salt', 
+        '1 pound ground beef',
+        '2/3 cup ketchup', 
+        '1/2 cup packed brown sugar', 
+        '1-1/2 teaspoons prepared mustard'
+      ],
+      preparationSteps: [
+        'In a large bowl, whisk egg and milk. Stir in the cheese, oats, onion and salt.', 
+        'Crumble beef over mixture and mix well. Shape into 8 loaves; place in a greased 13x9-in. baking dish.', 
+        'In a small bowl, combine the ketchup, brown sugar and mustard; spoon over loaves.',
+        'Bake, uncovered, at 350° for 25-30 minutes or until no pink remains and a thermometer reads 160°.'
+      ],
+      pictureUrl: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Lil-Cheddar-Meat-Loaves_EXPS_MRRMZ16_10252_C09_16_2b-1.jpg?fit=700,700" //  a URL to an image of the dish
+    },
+    {
+      id: uuidv4(),
+      title: 'Traditional Lasagna',
+      shortDescription: "My family first tasted this rich, homemade lasagna recipe at a friend's home on Christmas Eve. We were so impressed that it became our own holiday tradition as well.",
+      ingredients: [
+        '1 pound ground beef', 
+        '3/4 pound bulk pork sausage', 
+        '3 cans (8 ounces each) tomato sauce', 
+        '2 cans (6 ounces each) tomato paste',
+        '2 garlic cloves, minced', 
+        '2 teaspoons sugar', 
+        '1 teaspoon Italian seasoning', 
+        '1/2 to 1 teaspoon salt', 
+        '1/4 to 1/2 teaspoon pepper',
+        '3 large eggs', 
+        '3 tablespoons minced fresh parsley', 
+        '3 cups 4% small-curd cottage cheese', 
+        '1 cup ricotta cheese', 
+        '1/2 cup grated Parmesan cheese',
+        '9 lasagna noodles, cooked and drained', 
+        '6 slices provolone cheese (about 6 ounces)', 
+        '3 cups shredded part-skim mozzarella cheese, divided'
+      ],
+      preparationSteps: [
+        'In a large skillet over medium heat, cook and crumble beef and sausage until no longer pink; drain. Add next 7 ingredients.', 
+        'Bring to a boil. Reduce heat; simmer, uncovered, 1 hour, stirring occasionally.', 
+        'Adjust seasoning with additional salt and pepper if desired.',
+        'Meanwhile, in a large bowl, lightly beat eggs. Add parsley; stir in cottage cheese, ricotta and Parmesan cheese.',
+        'Preheat oven to 375°. Spread 1 cup meat sauce in an ungreased 13x9-in. baking dish.', 
+        'Layer with 3 noodles, provolone cheese, 2 cups cottage cheese mixture, 1 cup mozzarella, 3 noodles, 2 cups meat sauce, remaining cottage cheese mixture and 1 cup mozzarella.', 
+        'Top with remaining noodles, meat sauce and mozzarella (dish will be full).',
+        'Cover; bake 50 minutes. Uncover; bake until heated through, about 20 minutes. Let stand 15 minutes before cutting.'
+      ],
+      pictureUrl: "https://www.tasteofhome.com/wp-content/uploads/2018/01/Traditional-Lasagna_EXPS_THND16_12003_C07_26_6b-3.jpg?fit=700,700" //  a URL to an image of the dish
+    },
     // ... other recipes ...
   
   ];
