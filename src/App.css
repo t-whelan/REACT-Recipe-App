@@ -79,7 +79,7 @@
     margin-bottom: 20px;
 }
 
-.go-to-recipe {
+.centered-button {
     display: block;
     text-align: center;
     font-size: 16px;
@@ -87,7 +87,7 @@
     color: gold;
 }
 
-.go-to-recipe:hover {
+.centered-button:hover {
     color: black;
 }
 
