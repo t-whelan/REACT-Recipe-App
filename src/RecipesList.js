@@ -4,7 +4,7 @@ import Header from "./Header.js"
 
 const RecipesList = ({ recipes }) => {
   return (
-    
+    <Header />
     <h1>Recipes List</h1>
     <div className="card-deck">
       {recipes.map(recipe => (
