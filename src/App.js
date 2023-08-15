@@ -3,8 +3,6 @@ import "./App.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RecipesList from './RecipesList';
 import RecipeDetail from './RecipeDetail';
-import Header from './Header';
-import About from './About';
 import Footer from './Footer';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -337,12 +335,10 @@ const App = () => {
   
 
   return (
-    <Router>
-      <Header />
+    <Router className="body>
       <Routes>
         <Route path="/" element={<RecipesList recipes={recipes} />} />
         <Route path="/recipe/:id" element={<RecipeDetail recipes={recipes} />} />
-        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </Router>
