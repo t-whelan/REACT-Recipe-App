@@ -5,7 +5,10 @@ import Header from "./Header.js"
 const RecipesList = ({ recipes }) => {
   return (
     <Header />
+    <div className>
     <h1>Recipes List</h1>
+    </div>
+    <br/>
     <div className="card-deck">
       {recipes.map(recipe => (
         <div key={recipe.id} className="card">
