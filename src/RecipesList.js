@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import "./RecipeDetails.css"
+import Header from "./Header.js"
 
 const RecipesList = ({ recipes }) => {
   return (
+    
     <h1>Recipes List</h1>
     <div className="card-deck">
       {recipes.map(recipe => (
