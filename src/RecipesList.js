@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const RecipesList = ({ recipes }) => {
   return (
+    <h1>Recipes List</h1>
     <div className="card-deck">
-      <h1>Recipes List</h1>
       {recipes.map(recipe => (
         <div key={recipe.id} className="card">
         <div className="card-body">
