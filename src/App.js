@@ -335,12 +335,14 @@ const App = () => {
   
 
   return (
-    <Router className="body>
+    <Router>
+    <div className="body">
       <Routes>
         <Route path="/" element={<RecipesList recipes={recipes} />} />
         <Route path="/recipe/:id" element={<RecipeDetail recipes={recipes} />} />
       </Routes>
       <Footer />
+    </div>
     </Router>
   );
 };
