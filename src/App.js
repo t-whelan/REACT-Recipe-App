@@ -37,7 +37,7 @@ const App = () => {
         'Once dried, remove the biltong from the dehydrator or oven and let it cool completely.',
         'Store the cooled biltong in an airtight container at room temperature.',
       ],
-      pictureUrl: '../biltong.jpg',
+      pictureUrl: "https://biltongandnuthut.co.za/wp-content/uploads/2021/02/4-1.jpg",
     },
     {
       id: uuidv4(),
@@ -67,7 +67,7 @@ const App = () => {
         'Sprinkle the chopped fresh parsley over the dish before serving.',
         'Serve the sautéed chicken livers over toasted bread or alongside a fresh green salad.',
       ],
-      pictureUrl: '../chicken-liver.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://www.licious.in/blog/wp-content/uploads/2020/09/liver.jpg", // Provide a URL to an image of the dish
     },
 
     {
@@ -106,7 +106,7 @@ const App = () => {
         'Garnish with chopped fresh cilantro or parsley before serving.',
         'Serve the chakalaka warm as a side dish with grilled meat, bread, or pap (maize porridge).',
       ],
-      pictureUrl: '../chakalaka.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://africanbites.com/wp-content/uploads/2014/11/IMG_4999.jpg", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -146,7 +146,7 @@ const App = () => {
         'Remove from the oven and let it cool slightly before serving.',
         'Serve the bobotie with yellow rice and a side of sambal (tomato and onion salad).',
       ],
-      pictureUrl: '../bobotie.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://tasteoftheplace.com/wp-content/uploads/2017/05/Bobotie-at-TasteOfThePlace.com-inline.jpg", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -180,7 +180,7 @@ const App = () => {
         'Remove from the oven and let it cool slightly before serving.',
         'Serve the bread and butter pudding warm with whipped cream or custard.',
       ],
-      pictureUrl: '../bread-and-butter-pudding.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/food/2014/12/01/AustralianTableBR112200/bread-and-butter-pudding.jpg?width=1200&height=630&quality=75&mode=crop", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -220,7 +220,7 @@ const App = () => {
         'Remove the koeksisters from the syrup and let them drain on a wire rack.',
         'Serve the koeksisters at room temperature as a sweet and indulgent treat.',
       ],
-      pictureUrl: '../koeksisters.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://www.okfoods.co.za/living/recipes/traditional-cape-malay-koeksisters/_jcr_content/root/responsivegrid/responsivegrid/responsivegrid_745810992/image.coreimg.80.900.png/1678792187354/koesisters-649x354.png", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -260,7 +260,7 @@ const App = () => {
         'Let the milktart cool completely before slicing and serving.',
         'Serve the milktart at room temperature or chilled.',
       ],
-      pictureUrl: '../milktart.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://www.africanbites.com/wp-content/uploads/2014/11/IMG_0869-1.jpg", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -297,7 +297,7 @@ const App = () => {
         'Let the malva pudding stand for a few minutes to absorb the sauce before serving.',
         'Serve the malva pudding warm, drizzled with extra sauce if desired.',
       ],
-      pictureUrl: '../malva-pudding.jpg', // Provide a URL to an image of the dish
+      pictureUrl: "https://www.amawaterways.co.uk/Assets/Connections/Thumb/Malva_Pudding_Hero.jpg", // Provide a URL to an image of the dish
     },
     {
       id: uuidv4(),
@@ -322,7 +322,7 @@ const App = () => {
         'Cover the dish with plastic wrap and refrigerate for a few hours or overnight to allow the flavors to meld and the dessert to set.',
         'Slice and serve the Peppermint Crisp Tart chilled.',
       ],
-      pictureUrl: '../peppermint-crisp-tart.jpg', //  a URL to an image of the dish
+      pictureUrl: "https://www.foodleclub.com/wp-content/uploads/2021/08/peppermint-crisp-fridge-tart_4.jpg", //  a URL to an image of the dish
     },
     // ... other recipes ...
   
