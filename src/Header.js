@@ -3,8 +3,6 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <div className="logo">
-        <img src="../SA-Logo.svg" alt="Logo" width={400} />
         <div className="title">
           <h1>Heritage Heaven</h1>
           <p>
