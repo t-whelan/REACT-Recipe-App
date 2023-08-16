@@ -4,6 +4,10 @@
   font-size: medium;
 }
 .title p {
+  background-color: gold;
+  color: black;
+  opacity: .8;
+  box-shadow: 1px 1px 10px 0px goldenrod;
   text-align: center;
   font-weight: bolder;
   font-size: medium;
