@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 100%;
+        width: calc(50% -1rem);
 }
 
 @media screen and (max-width: 480px) {
@@ -104,6 +104,9 @@
         width: 100%;
     }
 }
+  .container{
+    width: 100%;
+  }
 .recipe-details {
     background-color: black;
     opacity: .8;
