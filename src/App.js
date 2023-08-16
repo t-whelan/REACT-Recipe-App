@@ -325,7 +325,7 @@ const App = () => {
     },
     {
       id: uuidv4(),
-      title: 'Basic Homemade Bread',
+      title: 'Basic Homemade Bread🍞',
       shortDescription: "If you'd like to learn how to bake bread, here's a wonderful place to start. This easy white bread bakes up deliciously golden brown.",
       ingredients: [
         '1 package (1/4 ounce) active dry yeast', 
@@ -352,7 +352,7 @@ const App = () => {
     },
     {
       id: uuidv4(),
-      title: "Li'l Cheddar Meat Loaves",
+      title: "Li'l Cheddar Meat Loaves🥖🧀",
       shortDescription: 'A beloved dish featuring cheddar cheese, oats, ketchup, and mustard',
       ingredients: [
         '1 large egg', 
@@ -376,7 +376,7 @@ const App = () => {
     },
     {
       id: uuidv4(),
-      title: 'Traditional Lasagna',
+      title: 'Traditional Lasagna🍝',
       shortDescription: "My family first tasted this rich, homemade lasagna recipe at a friend's home on Christmas Eve. We were so impressed that it became our own holiday tradition as well.",
       ingredients: [
         '1 pound ground beef', 
