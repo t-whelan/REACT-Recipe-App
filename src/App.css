@@ -108,6 +108,9 @@
     .card {
         width: 100%;
     }
+  .container {
+    width: calc(100% -1rem)
+  }
 }
 .recipe-details {
     background-color: black;
