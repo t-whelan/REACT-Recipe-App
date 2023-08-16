@@ -100,7 +100,7 @@
 
     }
   .container {
-    width: calc(100% -1rem)
+    width: 100%
   }
 }
 
@@ -109,7 +109,7 @@
         width: 100%;
     }
   .container {
-    width: calc(100% -1rem)
+    width: 100% 
   }
 }
 .recipe-details {
