@@ -98,6 +98,9 @@
     .card {
         width: calc(50% -1rem);
 }
+  .container { width: 100%
+             }
+}
 
 @media screen and (max-width: 480px) {
     .card {
