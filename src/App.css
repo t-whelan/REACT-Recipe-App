@@ -99,6 +99,9 @@
         width: calc(50% - 1rem);
 
     }
+  .container {
+    width: calc(100% -1rem)
+  }
 }
 
 @media screen and (max-width: 480px) {
