@@ -5,7 +5,7 @@ import Header from "./Header.js"
 const RecipesList = ({ recipes }) => {
   return (
     <Header />
-    <div className>
+    <div className="recipelist-title">
     <h1>Recipes List</h1>
     </div>
     <br/>
