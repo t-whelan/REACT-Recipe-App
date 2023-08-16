@@ -96,21 +96,13 @@
 
 @media screen and (max-width: 768px) {
     .card {
-        width: calc(50% - 1rem);
-
-    }
-  .container {
-    width: 100%
-  }
+        width: 100%;
 }
 
 @media screen and (max-width: 480px) {
     .card {
         width: 100%;
     }
-  .container {
-    width: 100% 
-  }
 }
 .recipe-details {
     background-color: black;
